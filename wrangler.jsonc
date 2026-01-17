@@ -15,9 +15,20 @@
 		// The path to the directory containing the `index.html` file to be served at `/`
 		"directory": "./public"
 	},
+	"ai": {
+        "binding": "AI"
+    },
 	"observability": {
 		"enabled": true
-	}
+	},
+	"d1_databases": [
+		{
+			"binding": "feedback_db",
+			"database_name": "feedback-db",
+			"database_id": "2d4052c5-09ed-4eaf-8c15-859589000964"
+		}
+		
+	]
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
